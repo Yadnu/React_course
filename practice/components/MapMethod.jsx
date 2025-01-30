@@ -48,36 +48,7 @@ const MapMethod = () => {
             email: "user3@example.com",
             location: { city: "Los Angeles" },
         },
-        {
-            name: "John Doe",
-            email: "user1@example.com",
-            location: { city: "San Francisco" },
-        },
-        {
-            name: "Jane Smith",
-            email: "user2@example.com",
-            location: { city: "New York" },
-        },
-        {
-            name: "Robert Brown",
-            email: "user3@example.com",
-            location: { city: "Los Angeles" },
-        },
-        {
-            name: "John Doe",
-            email: "user1@example.com",
-            location: { city: "San Francisco" },
-        },
-        {
-            name: "Jane Smith",
-            email: "user2@example.com",
-            location: { city: "New York" },
-        },
-        {
-            name: "Robert Brown",
-            email: "user3@example.com",
-            location: { city: "Los Angeles" },
-        }
+      
     ];
   return (
     <div>
