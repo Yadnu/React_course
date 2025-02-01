@@ -1,55 +1,55 @@
 import React from 'react'
 
-
+const dummyData = [
+    {
+        name: "John Doe",
+        email: "user1@example.com",
+        location: { city: "San Francisco" },
+    },
+    {
+        name: "Jane Smith",
+        email: "user2@example.com",
+        location: { city: "New York" },
+    },
+    {
+        name: "Robert Brown",
+        email: "user3@example.com",
+        location: { city: "Los Angeles" },
+    },
+    {
+        name: "John Doe",
+        email: "user1@example.com",
+        location: { city: "San Francisco" },
+    },
+    {
+        name: "Jane Smith",
+        email: "user2@example.com",
+        location: { city: "New York" },
+    },
+    {
+        name: "Robert Brown",
+        email: "user3@example.com",
+        location: { city: "Los Angeles" },
+    },
+    {
+        name: "John Doe",
+        email: "user1@example.com",
+        location: { city: "San Francisco" },
+    },
+    {
+        name: "Jane Smith",
+        email: "user2@example.com",
+        location: { city: "New York" },
+    },
+    {
+        name: "Robert Brown",
+        email: "user3@example.com",
+        location: { city: "Los Angeles" },
+    },
+  
+];
 const MapMethod = () => {
-    const dummyData = [
-        {
-            name: "John Doe",
-            email: "user1@example.com",
-            location: { city: "San Francisco" },
-        },
-        {
-            name: "Jane Smith",
-            email: "user2@example.com",
-            location: { city: "New York" },
-        },
-        {
-            name: "Robert Brown",
-            email: "user3@example.com",
-            location: { city: "Los Angeles" },
-        },
-        {
-            name: "John Doe",
-            email: "user1@example.com",
-            location: { city: "San Francisco" },
-        },
-        {
-            name: "Jane Smith",
-            email: "user2@example.com",
-            location: { city: "New York" },
-        },
-        {
-            name: "Robert Brown",
-            email: "user3@example.com",
-            location: { city: "Los Angeles" },
-        },
-        {
-            name: "John Doe",
-            email: "user1@example.com",
-            location: { city: "San Francisco" },
-        },
-        {
-            name: "Jane Smith",
-            email: "user2@example.com",
-            location: { city: "New York" },
-        },
-        {
-            name: "Robert Brown",
-            email: "user3@example.com",
-            location: { city: "Los Angeles" },
-        },
-      
-    ];
+    
   return (
     <div>
         <h1> Users list</h1>
