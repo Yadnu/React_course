@@ -6,6 +6,7 @@ import MainContent from '../components/MainContent'
 import Footer from '../components/Footer'
 import WM from '../components/WelcomeMessage'
 import Exercise1 from '../components/Exercise1'
+import Styling from '../components/Styling'
 
 function App() {
 
@@ -14,7 +15,8 @@ function App() {
       <Header />
       {/* <MainContent /> */}
       {/* <WM/> */}
-      <Exercise1/>
+      {/* <Exercise1/> */}
+      <Styling />
 
       <Footer/>
     </>
