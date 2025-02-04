@@ -1,22 +1,28 @@
 import React, { useState } from 'react'
 
 const TodoList = () => {
-  const [Todo, setTodo] = useState([]);
-  const handleClick = (e) => {
-    setTodo([...Todo, e.target.value]);
+  const [todos, setTodos] =useState([]);
+  const [value, setValue] = useState('');
+  const handleClick = (e) =>{
+        e.preventDefault();
+        setTodos([...todos, value]);
+        setValue('');
   }
   return (
     <div>
-        <h1>Todo List</h1>
+        <h1>TodoList</h1>
         <ul>
-            {Todo.map((item, index) => {
-                return <li key={index}> item</li>
-            } )}
+            {todos.map((todos, index) => <li key={index}>
+                {todos}
+            </li>)}
         </ul>
-        <form action="post">
-            <input type="text" />
-            <button type="submit" onClick={handleClick}>Add</button>
+        <form action="">
+            <input type="text" value={value} onChange={(e)=>{setValue(e.target.value)}} />
+            <button onClick={handleClick}> add Todo</button>
+
         </form>
+
+
     </div>
   )
 }
