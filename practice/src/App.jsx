@@ -7,6 +7,7 @@ import Footer from '../components/Footer'
 import WM from '../components/WelcomeMessage'
 import Exercise1 from '../components/Exercise1'
 import Styling from '../components/Styling'
+import UserState from '../components/UserState'
 
 function App() {
 
@@ -16,8 +17,9 @@ function App() {
       {/* <MainContent /> */}
       {/* <WM/> */}
       {/* <Exercise1/> */}
-      <Styling />
-
+      {/* <Styling /> */}
+      <UserState />
+      
       <Footer/>
     </>
   )
