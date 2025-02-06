@@ -48,7 +48,7 @@ const dummyData = [
     },
   
 ];
-const MapMethod = () => {
+const MapMethod = (props) => {
     
   return (
     <div>
@@ -57,7 +57,7 @@ const MapMethod = () => {
             
                 {dummyData.map((user) => {
                     return <li>
-                        <h3>Name: {user.name}</h3>
+                        <h3>Name: {propuser.name}</h3>
                         <h2>Email: {user.email}</h2>
                         <h2>Location: {user.location.city}</h2>
                         </li>

@@ -8,6 +8,7 @@ import WM from '../components/WelcomeMessage'
 import Exercise1 from '../components/Exercise1'
 import Styling from '../components/Styling'
 import UserState from '../components/UserState'
+import EffectHook from '../components/EffectHook'
 
 function App() {
 
@@ -18,8 +19,9 @@ function App() {
       {/* <WM/> */}
       {/* <Exercise1/> */}
       {/* <Styling /> */}
-      <UserState />
-      
+      {/* <UserState /> */}
+      <EffectHook />
+
       <Footer/>
     </>
   )
