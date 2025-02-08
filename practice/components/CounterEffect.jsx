@@ -5,7 +5,7 @@ const CounterEffect = () => {
  useEffect(()=> {
     console.log('useEffect called');
     document.title = `Counter value is ${count}`;
-  }, [count]);
+  },[count]);
   const handleClick = ()=> {
     setCount(count + 1);
   }
