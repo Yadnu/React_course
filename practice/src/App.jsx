@@ -13,6 +13,7 @@ import UserContext from '../components/UserContext'
 import UpdateUser from '../components/UpdateUser'
 
 import CounterReduce from '../components/CounterReduce'
+import FocusInput from '../components/FocusInput'
 
 function App() {
  
@@ -28,6 +29,7 @@ function App() {
       {/* <UserContext />
       <UpdateUser /> */}
       <CounterReduce />
+      <FocusInput />
       <Footer/>
     </>
   )
