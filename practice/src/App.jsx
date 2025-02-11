@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { createContext, useState } from 'react'
 
 import './App.css'
 import Header from '../components/Header'
@@ -9,9 +9,13 @@ import Exercise1 from '../components/Exercise1'
 import Styling from '../components/Styling'
 import UserState from '../components/UserState'
 import EffectHook from '../components/EffectHook'
+import UserContext from '../components/UserContext'
+import UpdateUser from '../components/UpdateUser'
+
+import CounterReduce from '../components/CounterReduce'
 
 function App() {
-
+ 
   return (
     <>
       <Header />
@@ -20,11 +24,12 @@ function App() {
       {/* <Exercise1/> */}
       {/* <Styling /> */}
       {/* <UserState /> */}
-      <EffectHook />
-
+      {/* <EffectHook /> */}
+      {/* <UserContext />
+      <UpdateUser /> */}
+      <CounterReduce />
       <Footer/>
     </>
   )
 }
-
 export default App
