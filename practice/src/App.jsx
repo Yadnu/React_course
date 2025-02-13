@@ -14,6 +14,7 @@ import UpdateUser from '../components/UpdateUser'
 
 import CounterReduce from '../components/CounterReduce'
 import FocusInput from '../components/FocusInput'
+import Meal from '../components/Meal'
 
 function App() {
  
@@ -30,6 +31,7 @@ function App() {
       <UpdateUser /> */}
       <CounterReduce />
       <FocusInput />
+      <Meal />
       <Footer/>
     </>
   )
