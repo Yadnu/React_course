@@ -15,7 +15,7 @@ import UpdateUser from '../components/UpdateUser'
 import CounterReduce from '../components/CounterReduce'
 import FocusInput from '../components/FocusInput'
 import Meal from '../components/Meal'
-
+import Calculator from '../components/Calculator'
 function App() {
  
   return (
@@ -32,6 +32,7 @@ function App() {
       <CounterReduce />
       <FocusInput />
       <Meal />
+      <Calculator />
       <Footer/>
     </>
   )
